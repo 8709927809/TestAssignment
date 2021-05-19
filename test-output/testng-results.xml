@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Monthly Payment$1,073.64]]>
+    </line>
+    <line>
+      <![CDATA[Total Payment$386,513]]>
+    </line>
+    <line>
+      <![CDATA[Total Payment$186,513]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21460" started-at="2021-05-02T16:36:44Z" finished-at="2021-05-02T16:37:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21460" started-at="2021-05-02T16:36:44Z" finished-at="2021-05-02T16:37:06Z">
+      <class name="com.Tests.TestProgram">
+        <test-method status="PASS" signature="configBc()[pri:0, instance:com.Tests.TestProgram@d56d67]" name="configBc" is-config="true" duration-ms="6895" started-at="2021-05-02T09:36:44Z" finished-at="2021-05-02T09:36:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBc -->
+        <test-method status="PASS" signature="configBeforeMtd()[pri:0, instance:com.Tests.TestProgram@d56d67]" name="configBeforeMtd" is-config="true" duration-ms="3998" started-at="2021-05-02T09:36:51Z" finished-at="2021-05-02T09:36:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMtd -->
+        <test-method status="PASS" signature="userVerifyLoanAmount()[pri:0, instance:com.Tests.TestProgram@d56d67]" name="userVerifyLoanAmount" duration-ms="10217" started-at="2021-05-02T09:36:55Z" finished-at="2021-05-02T09:37:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Monthly Payment$1,073.64]]>
+            </line>
+            <line>
+              <![CDATA[Total Payment$386,513]]>
+            </line>
+            <line>
+              <![CDATA[Total Payment$186,513]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userVerifyLoanAmount -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.Tests.TestProgram@d56d67]" name="configAC" is-config="true" duration-ms="328" started-at="2021-05-02T09:37:05Z" finished-at="2021-05-02T09:37:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.Tests.TestProgram -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
